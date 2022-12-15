@@ -1,0 +1,240 @@
+@media (max-width: 960px) {
+  .burger,
+  .header-logo,
+  .header-icon__wrapper:not(:last-child),
+  .search-bar__wrapper,
+  .menu-list__item:nth-child(1n + 5) {
+    display: none;
+  }
+
+  .media-logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #19202c;
+  }
+
+  .media-logo img {
+    margin-right: 10px;
+  }
+
+  .header-icon__wrapper:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 27px;
+  }
+
+  .header-icon__wrapper:not(:first-child) {
+    margin-left: 0px;
+  }
+
+  .channel-page__banner {
+    padding-right: 32px;
+    margin-right: 0px;
+    margin-top: 7px;
+  }
+
+  .channel-page__content {
+    display: block;
+    position: relative;
+    bottom: 65px;
+    left: 16px;
+  }
+
+  .channel-page__title {
+    margin-bottom: 30px;
+  }
+
+  .channel-page__logo-title {
+    margin-bottom: 19px;
+  }
+
+  .channel-page__logo-title .title {
+    margin-top: 2px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .channel-page__logo-title .subtitle {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .channel-page__actions button {
+    padding: 10px 17px 9px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    max-width: 120px;
+  }
+
+  .channel-page__tabs {
+    margin-bottom: 16px;
+  }
+
+  .channel-page__info {
+    display: block;
+  }
+
+  .channel-page__logo-title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .channel-page__title {
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .channel-page__actions img {
+    display: none;
+  }
+
+  .tabs-list{
+    padding-right: 33px;
+  }
+  .tabs-list__item:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  .channel-page_recommended,
+  .tabs-content {
+    display: none;
+  }
+
+  .content-row__controls {
+    display: none;
+  }
+
+  .video-item:nth-child(2){
+    margin-bottom: 33px;
+  }
+  .menu-list .menu-item__title {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  .menu-list__item,
+  .menu-list__item:nth-child(3),
+  .menu-list__item:nth-child(1n + 4) {
+    margin: 0;
+  }
+
+  .menu-list__item a {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 38px;
+  }
+
+  .menu-list__item:nth-child(2) a {
+    margin-left: 9px;
+  }
+
+  .menu-list__item:nth-child(3) .icon-wrapper,
+  .menu-list__item:nth-child(4) .icon-wrapper {
+    margin-top: 3px;
+    margin-left: 2px;
+  }
+
+  .menu-list {
+    border-top: 1px solid #f1f1f1;
+    background-color: rgb(255, 255, 255);
+    z-index: 6;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 22px 11px 24px;
+    height: 61px;
+    max-width: none;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .tabs-list__item:nth-child(1n + 4) {
+    display: none;
+  }
+  .tabs-list__item:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    padding: 12px 0px;
+    max-width: 320px;
+  }
+
+  header {
+    padding: 12px 20px 12px 16px;
+  }
+
+  .channel-page__banner .banner {
+    max-width: 320px;
+    height: 100px;
+    border-radius: 0px;
+    margin-top: 11px;
+  }
+
+  .channel-page__logo-title .logo {
+    width: 70px;
+    height: 70px;
+    margin-right: 0px;
+  }
+  .content-row__title {
+    display: none;
+  }
+
+  .content {
+    padding-bottom: 76px;
+  }
+
+  .channel-page__banner {
+    padding-right: 0px;
+    margin-bottom: -100px;
+  }
+
+  .tabs-list__item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .content-row__videos {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .video-wrapper {
+    margin-bottom: 8px;
+    max-width: 288px;
+  }
+
+  .video-item .video-image {
+    width: 288px;
+    height: 150px;
+    border-radius: 14px;
+  }
+
+  .video-item {
+    margin-bottom: 30px;
+    max-width: 288px;
+  }
+}
